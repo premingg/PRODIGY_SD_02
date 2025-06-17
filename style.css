@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #0f0f0f;
+  color: #00ffcc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.game-wrapper {
+  background-color: #1a1a1a;
+  border: 2px solid #00ffcc;
+  border-radius: 10px;
+  padding: 40px;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 0 20px #00ffcc;
+  text-align: center;
+}
+
+h1 {
+  color: #00ffff;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  margin-bottom: 20px;
+  color: #cccccc;
+}
+
+input[type="number"] {
+  padding: 10px;
+  width: 80%;
+  border: 1px solid #00ffcc;
+  background-color: #000;
+  color: #00ffcc;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #00cc99;
+  border: none;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #00ffcc;
+}
+
+.reset-btn {
+  background-color: #ff3366;
+  color: #fff;
+}
+
+.reset-btn:hover {
+  background-color: #ff6699;
+}
+
+.feedback-text {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  font-size: 0.9rem;
+  color: #99ffee;
+}
