@@ -79,3 +79,11 @@ button:hover {
   font-size: 0.9rem;
   color: #99ffee;
 }
+
+.highscore-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0 0 0;
+  font-size: 0.9rem;
+  color: #ffd700;
+}
